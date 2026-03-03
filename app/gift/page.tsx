@@ -144,7 +144,7 @@ export default function StorytellingGiftPage() {
         <motion.div {...scrollReveal} className="border-t border-zinc-800/50 pt-16">
           <div className="flex flex-col items-center rounded-[2rem] border border-zinc-800 bg-gradient-to-b from-zinc-900/50 to-zinc-950/50 p-8 text-center shadow-2xl backdrop-blur-xl md:p-12">
             <Music className="mb-6 h-10 w-10 text-violet-400" />
-            <h3 className="mb-4 text-3xl font-bold text-white">Our Song</h3>
+            <h3 className="mb-4 text-3xl font-bold text-white">Your Song</h3>
             <p className="mb-8 text-zinc-400">
               Play this while you click the final button.
             </p>
@@ -175,4 +175,5 @@ export default function StorytellingGiftPage() {
     </div>
   );
 }
+
 
