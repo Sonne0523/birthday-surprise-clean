@@ -52,7 +52,7 @@ export default function StorytellingGiftPage() {
           <div className="mt-8 max-w-2xl text-center">
             <h2 className="mb-4 text-2xl font-bold text-zinc-100">The Beginning</h2>
             <p className="leading-relaxed text-zinc-400 md:text-lg">
-              Write your story here. "Remember when we first took this video? We had no
+              "Remember when we first took this video? We had no
               idea how close we were going to become. It feels like a lifetime ago, but
               also like it was just yesterday."
             </p>
@@ -175,3 +175,4 @@ export default function StorytellingGiftPage() {
     </div>
   );
 }
+
