@@ -284,7 +284,7 @@ export default function FinalSurprisePage() {
                 <button
                   onClick={handleBlowCandle}
                   disabled={isBlowing}
-                  className={`group relative flex items-center gap-3 rounded-full px-10 py-4 text-xl font-black text-white shadow-2xl transition-all duration-300 md:px-12 md:py-5 ${
+                  className={`group relative flex items-center gap-3 rounded-full px-10 py-4 text-xl font-black text-white shadow-2xl transition-all duration-1000 md:px-12 md:py-5 ${
                     isBlowing
                       ? "cursor-not-allowed bg-zinc-700 opacity-50 shadow-none"
                       : "bg-gradient-to-r from-cyan-500 via-blue-500 to-violet-600 hover:scale-105 hover:shadow-[0_0_60px_-10px_rgba(6,182,212,0.8)] active:scale-95"
@@ -329,3 +329,4 @@ export default function FinalSurprisePage() {
     </div>
   );
 }
+
